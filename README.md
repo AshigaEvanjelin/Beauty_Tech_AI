@@ -1,70 +1,249 @@
-💇‍♀️ Beauty Tech AI – Smart Salon Solutions
+# 💇‍♀️ Beauty Tech AI – AI Powered Smart Salon Platform
 
+## 📌 Project Overview
 
+Beauty Tech AI is an AI-powered salon management and beauty analysis platform designed to deliver personalized beauty experiences for customers while improving salon efficiency and business growth.
 
+The platform uses Artificial Intelligence to analyze skin type and hair type, generate beauty recommendations, provide home-care prescriptions, and offer virtual hairstyle try-on features.
 
-🚀 Project Overview
+The system includes separate dashboards for Customers, Salon Staff, and Salon Owners, making salon management smarter, faster, and more data-driven.
 
-Beauty Tech AI is an AI-powered salon solution to:
+---
 
-✅ Ensure consistent service quality
-✅ Reduce staff dependency
-✅ Provide hyper-personalized customer experiences
+# 🚀 Main Features
 
-It predicts future beauty services, tracks long-term customer journeys, and supports data-driven franchise growth.
+## 👤 Multi-Role Login System
 
-🛑 Problem Statement
+The platform supports 3 different user logins:
 
-Salons face:
+- Customer Login
+- Salon Staff Login
+- Salon Owner Login
 
-⚡ Inconsistent service quality
-⚡ Staff skill variability
-⚡ Experience-based decision-making
-⚡ Lack of predictive insights
+Each user has a dedicated dashboard with role-specific features.
 
-💰 Financial impact: Loss of repeat customers, higher training costs, and reduced efficiency.
+---
 
-💡 Solution
+# 👩 Customer Features
 
-Beauty Tech AI provides:
+## 🪪 AI Beauty Passport Creation
 
-🤖 AI-powered diagnostics – Skin & hair analysis for personalized recommendations
-📅 Predictive service planning – Suggests future treatments
-📊 Franchise dashboard – Tracks performance, staff efficiency & engagement
-🔗 Integration with POS & training systems – Smooth adoption across branches
-✨ Features
-💄 Personalized beauty recommendations
-🗓️ Long-term customer journey tracking
-👩‍💼 Staff productivity monitoring
-📈 Franchise benchmarking & insights
-🌐 Scalable across multiple salons
+After login, the system automatically creates a digital Beauty Passport by:
 
-🛠️ Technology Used
-🤖 AI / ML – Predictions & diagnostics
-📊 Data Analytics – Insights for customers & franchises
-💻 Web & Mobile App – Staff & customer interface
+- Detecting skin type
+- Detecting hair type
+- Performing face analysis using AI
+- Generating beauty scores and analysis reports
 
+---
 
-⚙️ Installation & Setup
+## 💄 Personalized Recommendations
+
+Customers receive:
+
+- Personalized salon service recommendations
+- Home-care prescriptions
+- Beauty improvement suggestions
+- Hair and skincare guidance
+
+---
+
+## 🪞 AI Hair Mirror Magic (Virtual Hairstyle Try-On)
+
+Customers can virtually try hairstyles using AI.
+
+The system:
+
+- Opens AI Hair Mirror Magic
+- Detects facial structure
+- Suggests suitable hairstyles
+- Allows virtual hairstyle preview before salon visit
+
+---
+
+## 📅 Appointment Booking
+
+Customers can:
+
+- Apply for salon appointments
+- Select services
+- View appointment status
+
+---
+
+# 👩‍💼 Salon Staff Features
+
+Salon staff dashboard allows staff members to:
+
+- View assigned appointments
+- Confirm appointments
+- Mark services as completed
+- Access customer details
+- Track daily service workflow
+
+---
+
+# 👨‍💼 Salon Owner Dashboard
+
+Salon owners can monitor complete salon analytics through an admin dashboard.
+
+Features include:
+
+- Active customer count
+- Total bookings
+- Revenue tracking
+- Booking trend visualization using graphs
+- Popular services analysis using charts
+- Business performance monitoring
+
+---
+
+# 🧠 AI Functionalities
+
+- Skin Type Detection
+- Hair Type Detection
+- Face Analysis
+- AI Recommendation Engine
+- Virtual Hairstyle Simulation
+- Predictive Beauty Suggestions
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Backend Development |
+| Flask | Web Framework |
+| HTML/CSS | Frontend Design |
+| SQLite | Database |
+| AI / ML | Beauty Detection & Recommendation |
+| OpenCV | Face Detection & Analysis |
+| VS Code | Development Environment |
+
+---
+
+# 📂 Project Structure
+
+```bash
+Beauty_Tech_AI/
+│
+├── backend/
+│   ├── routes/
+│   ├── static/
+│   ├── app.py
+│   ├── models.py
+│   ├── config.py
+│   ├── requirements.txt
+│
+├── frontend/
+├── README.md
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+Follow the steps below to run the project on your laptop using VS Code.
+
+---
+
+# ✅ Prerequisites
+
+Install:
+
+- Python 3.x
+- Git
+- VS Code
+
+---
+
+# 🔽 Step 1: Clone Repository
+
+```bash
 git clone https://github.com/AshigaEvanjelin/Beauty_Tech_AI.git
+```
+
+---
+
+# 📁 Step 2: Open Backend Folder
+
+```bash
 cd Beauty_Tech_AI/backend
+```
+
+---
+
+# 🧪 Step 3: Create Virtual Environment
+
+```bash
 python -m venv venv
-.\venv\Scripts\activate
-pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Step 4: Activate Virtual Environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+---
+
+# 📦 Step 5: Install Dependencies
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+---
+
+# 🚀 Step 6: Run Application
+
+```bash
 python app.py
+```
 
-📊 Impact
-🔹 Complaints ↓ ~30%
-🔹 Repeat customers ↑ ~25%
-🔹 Staff productivity ↑ ~20%
-🔹 Revenue uplift & training cost reduction
+---
 
-🗓️ 6-Month Rollout Plan
-Month 1–2: Prototype
-Month 3: Pilot
-Month 4: Data Testing
-Month 5: Refinement
-Month 6: Multi-branch rollout
+# 🌐 Step 7: Open in Browser
 
-Why Naturals Should Pilot This Idea:
-Beauty Tech AI ensures consistent, data-driven, personalized beauty experiences, improving customer satisfaction and driving franchise growth. ✨
+Open:
+
+```bash
+http://127.0.0.1:5000
+```
+
+---
+
+# 📊 Business Benefits
+
+Beauty Tech AI helps salons to:
+
+- Improve customer satisfaction
+- Reduce manual consultation effort
+- Deliver personalized beauty experiences
+- Increase repeat customers
+- Improve salon productivity
+- Monitor business growth through analytics
+
+---
+
+# 📈 Future Enhancements
+
+- Mobile App Integration
+- AR Makeup Try-On
+- Cloud Deployment
+- AI Voice Assistant
+- Real-Time Notification System
+- Online Payment Gateway
+
+---
+
+
+# ⭐ GitHub Support
+
+If you like this project, give it a ⭐ on GitHub.
