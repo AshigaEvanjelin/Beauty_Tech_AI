@@ -32,12 +32,7 @@ def serve_uploads(filename):
 
 @app.route('/hairstyles/<path:filename>')
 def serve_hairstyles(filename):
-    assets_dir = os.path.join(os.path.dirname(app.root_path), 'assets', 'hairstyles')
-
-    print("App root:", app.root_path)
-    print("Assets dir:", assets_dir)
-    print("Exists:", os.path.exists(assets_dir))
-
+    assets_dir = os.path.join(app.root_path, "assets", "hairstyles")
     return send_from_directory(assets_dir, filename)
 
 @app.route('/api/health', methods=['GET'])
