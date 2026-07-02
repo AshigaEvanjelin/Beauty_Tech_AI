@@ -243,6 +243,11 @@ Beauty Tech AI helps salons to:
 
 ---
 
+# 🌐 Live Demo
+
+👉 **Try the application here:**
+
+https://beauty-tech-ai.onrender.com
 
 # ⭐ GitHub Support
 
